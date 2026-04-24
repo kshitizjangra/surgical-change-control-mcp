@@ -18,7 +18,7 @@ An [MCP](https://modelcontextprotocol.io) server implementation of the **Surgica
 3. Click **Add Connector**.
 4. Add the following command:
    ```bash
-   npx -y @kshitizjangra/surgical-change-control-mcp
+   npx -y surgical-change-control-mcp
    ```
    *(Note: This assumes the package is published to npm. For local development, use the absolute path to your `src/index.js`)*.
 5. Save and wait for the status to show **Running**.
