@@ -1,0 +1,36 @@
+{
+  "name": "surgical-change-control-mcp",
+  "version": "1.0.0",
+  "description": "MCP server implementation of the Surgical Change Control skill",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "surgical-change-control-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.1",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "surgical-change-control",
+    "ai-safety",
+    "scope-control",
+    "perplexity",
+    "claude"
+  ],
+  "author": "kshitizjangra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kshitizjangra/surgical-change-control-mcp.git"
+  }
+}
